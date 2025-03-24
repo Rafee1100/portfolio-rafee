@@ -1,0 +1,71 @@
+{
+  "homepage": "https://rafee1100.github.io/portfolio",
+  "name": "portfolio",
+  "version": "1.2.0",
+  "description": "",
+  "main": "index.js",
+  "author": "Abdullah Al Rafee",
+  "license": "MIT",
+  "dependencies": {
+    "@testing-library/jest-dom": "6.1.4",
+    "@testing-library/react": "14.1.0",
+    "@testing-library/user-event": "14.5.1",
+    "bootstrap": "4.6.2",
+    "chart.js": "4.4.0",
+    "classnames": "2.3.2",
+    "emailjs-com": "^3.2.0",
+    "gulp": "4.0.2",
+    "gulp-append-prepend": "1.0.9",
+    "moment": "2.29.4",
+    "node-sass-package-importer": "5.3.3",
+    "nouislider": "15.7.1",
+    "perfect-scrollbar": "1.5.5",
+    "react": "18.2.0",
+    "react-chartjs-2": "5.2.0",
+    "react-datetime": "3.2.0",
+    "react-dom": "18.2.0",
+    "react-router-dom": "5.2.0",
+    "react-scripts": "5.0.1",
+    "reactstrap": "8.10.0",
+    "sass": "^1.69.5",
+    "web-vitals": "3.5.0",
+    "yup": "^1.4.0"
+  },
+  "optionalDependencies": {
+    "jquery": "3.7.1",
+    "typescript": "5.2.2"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject",
+    "install:clean": "rm -rf node_modules/ && rm -rf package-lock.json && npm install && npm start",
+    "compile-sass": "node-sass --importer node_modules/node-sass-package-importer/dist/cli.js src/assets/scss/blk-design-system-react.scss src/assets/css/blk-design-system-react.css",
+    "minify-sass": "node-sass --importer node_modules/node-sass-package-importer/dist/cli.js src/assets/scss/blk-design-system-react.scss src/assets/css/blk-design-system-react.min.css --output-style compressed",
+    "map-sass": "node-sass --importer node_modules/node-sass-package-importer/dist/cli.js src/assets/scss/blk-design-system-react.scss src/assets/css/blk-design-system-react.css --source-map true"
+  },
+  "eslintConfig": {
+    "extends": [
+      "react-app",
+      "react-app/jest"
+    ]
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "devDependencies": {
+    "gh-pages": "^6.1.0"
+  }
+}
