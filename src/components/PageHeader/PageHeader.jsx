@@ -1,11 +1,11 @@
 import React from "react";
 import { Container, Button } from "reactstrap";
-import resume from "../../assets/rafee_swe-resume.pdf";
+import resume from "../../assets/Abdullah Al Rafee.pdf";
 async function downloadResume() {
   try {
     const link = document.createElement("a");
     link.href = resume;
-    link.download = "rafee_swe_resume.pdf";
+    link.download = "abdullah_al_rafee_resume.pdf";
     link.click()
   } catch (error) {
     console.error("Error downloading file:", error);
