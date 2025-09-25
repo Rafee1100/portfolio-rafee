@@ -12,7 +12,7 @@ export default function LandingPage() {
         </Container>
       </section>
       <section className="section section-lg section-safe">
-        <Container>
+        
           <Row className="row-grid justify-content-between">
             {/* <Col md="5">
               <img alt="..." className="img-fluid floating" src={aboutImage} />
@@ -49,7 +49,52 @@ export default function LandingPage() {
                 </CardBody>
               </Card>
             </Col> */}
-            <Col md="6">
+            <Col md="4">
+              <div className="px-md-5">
+                <hr className="line-primary" />
+                <h3>Master of Science</h3>
+                <p>
+                  I am currently pursuing an M.Sc. in Computer Science at
+                  Jahangirnagar University. My coursework and research cover
+                  Computer Science and Engineering topics, software
+                  development and machine learning, and data structures &amp;
+                  algorithms. The topics I am currently working on are
+                </p>
+                <ul className="list-unstyled mt-5">
+                  <li className="py-2">
+                    <div className="d-flex align-items-center">
+                      <div className="icon icon-primary mb-2">
+                        <i className="tim-icons icon-laptop" />
+                      </div>
+                      <div className="ml-3">
+                        <h6>Human Computer Interaction</h6>
+                      </div>
+                    </div>
+                  </li>
+                  <li className="py-2">
+                    <div className="d-flex align-items-center">
+                      <div className="icon icon-primary mb-2">
+                        <i className="tim-icons icon-light-3" />
+                      </div>
+                      <div className="ml-3">
+                        <h6>Software Quality & Maintenance</h6>
+                      </div>
+                    </div>
+                  </li>
+                  <li className="py-2">
+                    <div className="d-flex align-items-center">
+                      <div className="icon icon-primary mb-2">
+                        <i className="tim-icons icon-tv-2" />
+                      </div>
+                      <div className="ml-3">
+                        <h6>Machine Learning & Agentic AI</h6>
+                      </div>
+                    </div>
+                  </li>
+                </ul>
+              </div>
+            </Col>
+            <Col md="4">
               <div className="px-md-5">
                 <hr className="line-warning" />
                 <h3>Bachelor of Science</h3>
@@ -85,14 +130,14 @@ export default function LandingPage() {
                         <i className="tim-icons icon-molecule-40" />
                       </div>
                       <div className="ml-3">
-                        <h6>Data strucure and Algorithms</h6>
+                        <h6>Data structure and Algorithms</h6>
                       </div>
                     </div>
                   </li>
                 </ul>
               </div>
             </Col>
-            <Col md="6">
+            <Col md="4">
               <div className="px-md-5">
                 <hr className="line-success" />
                 <h3>Software engineer</h3>
@@ -138,7 +183,7 @@ export default function LandingPage() {
               </div>
             </Col>
           </Row>
-        </Container>
+        {/* </Container> */}
       </section>
     </>
   );
