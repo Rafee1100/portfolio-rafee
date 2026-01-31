@@ -28,11 +28,11 @@
     "reactstrap": "8.10.0",
     "sass": "^1.69.5",
     "web-vitals": "3.5.0",
+    "yarn": "^1.22.22",
     "yup": "^1.4.0"
   },
   "optionalDependencies": {
-    "jquery": "3.7.1",
-    "typescript": "5.2.2"
+    "jquery": "3.7.1"
   },
   "scripts": {
     "start": "react-scripts start",
