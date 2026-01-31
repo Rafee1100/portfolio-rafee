@@ -217,7 +217,7 @@ export default function ProfilePage() {
                   </div>
                   <div className="description">
                     <h4 className="info-title">Ping me over linked in</h4>
-                    <a href="https://www.linkedin.com/in/abdullahalrafee/" className="text-info" target="_blank">
+                    <a href="https://www.linkedin.com/in/abdullahalrafee/" className="text-info" target="_blank" rel="noopener noreferrer">
                       Abdullah Al Rafee
                     </a>
                   </div>

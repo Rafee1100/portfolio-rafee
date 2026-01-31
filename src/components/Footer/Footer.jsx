@@ -65,7 +65,7 @@ export default function Footer() {
           <Col md="3">
             <h3 className="title">Find me on:</h3>
             <div className="btn-wrapper profile">
-              <a href="https://github.com/Rafee1100" target="_blank">
+              <a href="https://github.com/Rafee1100" target="_blank" rel="noopener noreferrer">
               <Button
                 className="btn-icon btn-neutral btn-round btn-simple"
                 color="default"
@@ -74,7 +74,7 @@ export default function Footer() {
                 <i className="fab fa-github"></i>
               </Button>
               </a>
-              <a href="https://www.facebook.com/abdullahal.rafee/" target="_blank">
+              <a href="https://www.facebook.com/abdullahal.rafee/" target="_blank" rel="noopener noreferrer">
               <Button
                 className="btn-icon btn-neutral btn-round btn-simple"
                 color="default"
@@ -83,7 +83,7 @@ export default function Footer() {
                 <i className="fab fa-facebook-square" />
               </Button>
               </a>
-              <a href="https://www.linkedin.com/in/abdullahalrafee/" target="_blank">
+              <a href="https://www.linkedin.com/in/abdullahalrafee/" target="_blank" rel="noopener noreferrer">
               <Button
                 className="btn-icon btn-neutral btn-round btn-simple"
                 color="default"

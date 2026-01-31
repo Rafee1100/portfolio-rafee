@@ -1,10 +1,6 @@
-import React from "react";
-// reactstrap components
-import { Button, Container, Row, Col } from "reactstrap";
 import imsTechnologiesCollege from "assets/img/ims-technologies-college.jpg";
 import ujetLogo from "assets/img/UJET-logo1.png";
-import { Link } from "react-router-dom/cjs/react-router-dom.min";
-// core components
+import { Button, Col, Container, Row } from "reactstrap";
 export default function LandingPage() {
   return (
     <>
@@ -27,7 +23,7 @@ export default function LandingPage() {
                 <strong>storing PII</strong>.
               </p>
               <div className="btn-wrapper mb-3">
-                <a href="https://ujet.cx/" target="_blank">
+                <a href="https://ujet.cx/" target="_blank" rel="noopener noreferrer">
                   <p className="category text-success d-inline">View company</p>
                   <Button
                     className="btn-link"
@@ -42,7 +38,7 @@ export default function LandingPage() {
               </div>
               <div className="btn-wrapper">
                 <div className="button-container">
-                  <a href="https://x.com/ujetcx" target="_blank">
+                  <a href="https://x.com/ujetcx" target="_blank" rel="noopener noreferrer">
                     <Button
                       className="btn-icon btn-simple btn-round btn-neutral"
                       color="default"
@@ -50,7 +46,7 @@ export default function LandingPage() {
                       <i className="fab fa-twitter" />
                     </Button>
                   </a>
-                  <a href="https://ujet.cx/" target="_blank">
+                  <a href="https://ujet.cx/" target="_blank" rel="noopener noreferrer">
                     <Button
                       className="btn-icon btn-simple btn-round btn-neutral"
                       color="default"
@@ -58,7 +54,7 @@ export default function LandingPage() {
                       <i className="fab fa-dribbble" />
                     </Button>
                   </a>
-                  <a href="https://www.facebook.com/ujet.cx" target="_blank">
+                  <a href="https://www.facebook.com/ujet.cx" target="_blank" rel="noopener noreferrer">
                     <Button
                       className="btn-icon btn-simple btn-round btn-neutral"
                       color="default"
@@ -89,7 +85,7 @@ export default function LandingPage() {
                 was the tech lead at iMS Systems.
               </p>
               <div className="btn-wrapper mb-3">
-                <a href="https://imssystems.tech" target="_blank">
+                <a href="https://imssystems.tech" target="_blank" rel="noopener noreferrer">
                   <p className="category text-success d-inline">View company</p>
                   <Button className="btn-link" color="success" size="sm">
                     <i className="tim-icons icon-minimal-right" />
@@ -98,7 +94,7 @@ export default function LandingPage() {
               </div>
               <div className="btn-wrapper">
                 <div className="button-container">
-                  <a href="https://x.com/iMS__Tech?t=EQYerVxB-y-QwfEwIT_bUg&s=09" target="_blank">
+                  <a href="https://x.com/iMS__Tech?t=EQYerVxB-y-QwfEwIT_bUg&s=09" target="_blank" rel="noopener noreferrer">
                     <Button
                       className="btn-icon btn-simple btn-round btn-neutral"
                       color="default"
@@ -106,7 +102,7 @@ export default function LandingPage() {
                       <i className="fab fa-twitter" />
                     </Button>
                   </a>
-                  <a href="https://imssystems.tech/" target="_blank">
+                  <a href="https://imssystems.tech/" target="_blank" rel="noopener noreferrer">
                     <Button
                       className="btn-icon btn-simple btn-round btn-neutral"
                       color="default"
@@ -114,7 +110,7 @@ export default function LandingPage() {
                       <i className="fab fa-dribbble" />
                     </Button>
                   </a>
-                  <a href="https://www.facebook.com/profile.php?id=61550345531503" target="_blank">
+                  <a href="https://www.facebook.com/profile.php?id=61550345531503" target="_blank" rel="noopener noreferrer">
                     <Button
                       className="btn-icon btn-simple btn-round btn-neutral"
                       color="default"

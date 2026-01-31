@@ -1,8 +1,4 @@
-import React from "react";
-// reactstrap components
-import { Card, CardBody, CardTitle, Container, Row, Col } from "reactstrap";
-import aboutImage from "assets/img/chester-wade.jpg";
-// core components
+import { Col, Container, Row } from "reactstrap";
 export default function LandingPage() {
   return (
     <>
@@ -14,41 +10,6 @@ export default function LandingPage() {
       <section className="section section-lg section-safe">
         
           <Row className="row-grid justify-content-between">
-            {/* <Col md="5">
-              <img alt="..." className="img-fluid floating" src={aboutImage} />
-              <Card className="card-stats bg-danger">
-                <CardBody>
-                  <div className="justify-content-center">
-                    <div className="numbers">
-                      <CardTitle tag="p">100%</CardTitle>
-                      <p className="card-category text-white">Safe</p>
-                    </div>
-                  </div>
-                </CardBody>
-              </Card>
-              <Card className="card-stats bg-info">
-                <CardBody>
-                  <div className="justify-content-center">
-                    <div className="numbers">
-                      <CardTitle tag="p">573 K</CardTitle>
-                      <p className="card-category text-white">
-                        Satisfied customers
-                      </p>
-                    </div>
-                  </div>
-                </CardBody>
-              </Card>
-              <Card className="card-stats bg-default">
-                <CardBody>
-                  <div className="justify-content-center">
-                    <div className="numbers">
-                      <CardTitle tag="p">10 425</CardTitle>
-                      <p className="card-category text-white">Business</p>
-                    </div>
-                  </div>
-                </CardBody>
-              </Card>
-            </Col> */}
             <Col md="4">
               <div className="px-md-5">
                 <hr className="line-primary" />

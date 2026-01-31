@@ -35,11 +35,6 @@ import alice_addin_02 from "assets/img/alice-addin-portfolio/alice-addin-02.png"
 import alice_addin_03 from "assets/img/alice-addin-portfolio/alice-addin-03.png";
 import alice_addin_04 from "assets/img/alice-addin-portfolio/alice-addin-04.png";
 import alice_addin_05 from "assets/img/alice-addin-portfolio/alice-addin-05.png";
-
-import ai_analytics_01 from "assets/img/ai-analytics-portfolio/ai-analytics-01.png";
-import ai_analytics_02 from "assets/img/ai-analytics-portfolio/ai-analytics-02.png";
-import ai_analytics_03 from "assets/img/ai-analytics-portfolio/ai-analytics-03.png";
-import ai_analytics_04 from "assets/img/ai-analytics-portfolio/ai-analytics-04.png";
 import { Link } from "react-router-dom/cjs/react-router-dom.min";
 
 const imsCarouselItems = [

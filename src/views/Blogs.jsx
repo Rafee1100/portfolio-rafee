@@ -24,7 +24,7 @@ export default function ProfilePage() {
                   Blogs will be published soon
                 </p>
                 <div className="text-center mb-5">
-                  <a href="https://medium.com/@rafee-abdullah1/" target="_blank">
+                  <a href="https://medium.com/@rafee-abdullah1/" target="_blank" rel="noopener noreferrer">
                   <Button className="btn-simple btn-success">
                     Read me on Medium.com
                   </Button>
