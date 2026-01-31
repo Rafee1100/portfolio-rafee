@@ -27,7 +27,7 @@ export default function LandingPage() {
                 <strong>storing PII</strong>.
               </p>
               <div className="btn-wrapper mb-3">
-                <a href="https://ujet.cx/">
+                <a href="https://ujet.cx/" target="_blank">
                   <p className="category text-success d-inline">View company</p>
                   <Button
                     className="btn-link"
@@ -89,7 +89,7 @@ export default function LandingPage() {
                 was the tech lead at iMS Systems.
               </p>
               <div className="btn-wrapper mb-3">
-                <a href="https://imssystems.tech">
+                <a href="https://imssystems.tech" target="_blank">
                   <p className="category text-success d-inline">View company</p>
                   <Button className="btn-link" color="success" size="sm">
                     <i className="tim-icons icon-minimal-right" />

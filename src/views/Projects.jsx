@@ -2,9 +2,6 @@ import React from "react";
 import { Button, Container, Row, Col, UncontrolledCarousel } from "reactstrap";
 import Navbar from "components/Navbars/Navbar";
 import Footer from "components/Footer/Footer";
-import denys from "assets/img/denys.jpg";
-import fabienBazanegue from "assets/img/fabien-bazanegue.jpg";
-import markFinn from "assets/img/mark-finn.jpg";
 
 import ims_01 from "assets/img/ims-portfolio/ims-01.png";
 import ims_02 from "assets/img/ims-portfolio/ims-02.png";
@@ -82,17 +79,10 @@ const aliceAddinCarouselItems = [
   { src: alice_addin_04, altText: "alice-addin-04", caption: "" },
   { src: alice_addin_05, altText: "alice-addin-05", caption: "" },
 ];
-const aiAnalyticsCarouselItems = [
-  { src: ai_analytics_01, altText: "ai-analytics-01", caption: "" },
-  { src: ai_analytics_02, altText: "ai-analytics-02", caption: "" },
-  { src: ai_analytics_03, altText: "ai-analytics-03", caption: "" },
-  { src: ai_analytics_04, altText: "ai-analytics-04", caption: "" },
-];
 
 export default function ProfilePage() {
   React.useEffect(() => {
     document.body.classList.toggle("profile-page");
-    // Specify how to clean up after this effect:
     return function cleanup() {
       document.body.classList.toggle("profile-page");
     };
